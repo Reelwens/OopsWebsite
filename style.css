@@ -1,8 +1,16 @@
+@font-face {
+   font-family: 'OxfamRegular';
+   src: url('fonts/Oxfam_TSTARPRO-Regular.otf');
+   src: url('fonts/Oxfam_TSTARPRO-Regular.otf?#iefix') format('embedded-opentype'),
+        url('fonts/Oxfam_TSTARPRO-Regular.otf') format('otf'),
+}
+
+
 body {
   background: #FFFFFF;
   padding: 0px;
   margin: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'OxfamRegular', sans-serif;
 }
 
 a, a:link, a:hover, a:visited, a:active,
