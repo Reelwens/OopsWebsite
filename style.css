@@ -1,8 +1,32 @@
 @font-face {
    font-family: 'OxfamRegular';
    src: url('fonts/Oxfam_TSTARPRO-Regular.otf');
-   src: url('fonts/Oxfam_TSTARPRO-Regular.otf?#iefix') format('embedded-opentype'),
-        url('fonts/Oxfam_TSTARPRO-Regular.otf') format('otf'),
+   src: url('fonts/Oxfam_TSTARPRO-Regular.otf?#iefix') format('embedded-opentype');
+   font-family: 'OxfamBold';
+   src: url('fonts/Oxfam_TSTARPRO-Bold.otf');
+   src: url('fonts/Oxfam_TSTARPRO-Bold.otf?#iefix') format('embedded-opentype');
+   font-family: 'OxfamBoldItalic';
+   src: url('fonts/Oxfam_TSTARPRO-BoldItalc.otf');
+   src: url('fonts/Oxfam_TSTARPRO-BoldItalc.otf?#iefix') format('embedded-opentype');
+   font-family: 'OxfamHeadline';
+   src: url('fonts/Oxfam_TSTARPRO-Headline.otf');
+   src: url('fonts/Oxfam_TSTARPRO-Headline.otf?#iefix') format('embedded-opentype');
+   font-family: 'OxfamItalic';
+   src: url('fonts/Oxfam_TSTARPRO-Italic.otf');
+   src: url('fonts/Oxfam_TSTARPRO-Italic.otf?#iefix') format('embedded-opentype');
+   font-family: 'OxfamLight';
+   src: url('fonts/Oxfam_TSTARPRO-Light.otf');
+   src: url('fonts/Oxfam_TSTARPRO-Light.otf?#iefix') format('embedded-opentype');
+   font-family: 'OxfamLightItalic';
+   src: url('fonts/Oxfam_TSTARPRO-LightItalic.otf');
+   src: url('fonts/Oxfam_TSTARPRO-LightItalic.otf?#iefix') format('embedded-opentype');
+   font-family: 'OxfamMedium';
+   src: url('fonts/Oxfam_TSTARPRO-Medium.otf');
+   src: url('fonts/Oxfam_TSTARPRO-Medium.otf?#iefix') format('embedded-opentype');
+   font-family: 'OxfamMediumItalic';
+   src: url('fonts/Oxfam_TSTARPRO-MediumItalic.otf');
+   src: url('fonts/Oxfam_TSTARPRO-MediumItalic.otf?#iefix') format('embedded-opentype');
+
 }
 
 
