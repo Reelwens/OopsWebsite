@@ -1,10 +1,9 @@
 @font-face {
-
    font-family: 'OxfamBold';
    src: url('../fonts/Oxfam_TSTARPRO-Bold.otf');
-
+   font-family: 'OxfamRegular';
+   src: url('../fonts/Oxfam_TSTARPRO-Regular.otf');
 }
-
 
 body {
   background: #FFFFFF;
