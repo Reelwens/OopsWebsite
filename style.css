@@ -1,0 +1,13 @@
+body {
+  background: #FFFFFF;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a, a:link, a:hover, a:visited, a:active,
+button, button:link, button:hover, button:visited, button:active {
+  outline : none;
+  text-decoration: none;
+}
+
