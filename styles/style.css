@@ -1,21 +1,197 @@
 @font-face {
-   font-family: 'OxfamBold';
-   src: url('../fonts/Oxfam_TSTARPRO-Bold.otf');
-   font-family: 'OxfamRegular';
+   font-family: 'oxfam_tstarpro-regular-webfont';
    src: url('../fonts/Oxfam_TSTARPRO-Regular.otf');
 }
 
 body {
-  background: #FFFFFF;
-  padding: 0px;
-  margin: 0px;
-  font-family: 'OxfamBold', sans-serif;
+  font-family: "oxfam_tstarpro-regular-webfont";
+  background-color: white;
 }
 
-a, a:link, a:hover, a:visited, a:active,
-button, button:link, button:hover, button:visited, button:active {
-  outline : none;
-  text-decoration: none;
+.clear {
+  clear: both;
 }
+
+/*----------------- TOPBAR ------------------------*/
+
+
+/*----------------- SLIDER ------------------------*/
+
+.monSlider{
+  padding: 0;
+}
+.monSlider img{
+  height: 600px;
+  width: 100%;
+}
+
+.slick-prev:before, .slick-next:before{
+  display:none;
+}
+
+.slick-prev, .slick-next{
+  display:none;
+}
+
+button{
+  display:none;
+}
+
+
+/*----------------- ARGUMENTS ------------------------*/
+
+.arguments img{
+  width:30px;
+}
+
+.arguments h2{
+  font-size: 20px;
+  color: #1d3d91;
+}
+
+.arguments {
+  text-align: center;
+  border-right: 4px solid #ce1818;
+  height:170px;
+  font-size: 13px;
+  color:#5b5651;
+  margin-bottom: 20px;
+}
+
+.arguments-list div:last-of-type{
+  border-right: none;
+}
+@media screen and (min-width:767px) and (max-width:991px) {
+
+  .arguments{
+    border-bottom: 4px solid #ce1818;
+    margin-bottom: 0px;
+  }
+  
+  .arguments-list div:nth-child(2){
+  border-right: none;
+}
+  
+.arguments-list div:nth-child(3){
+  border-bottom: none; 
+}
+  
+.arguments-list div:nth-child(4){
+  border-bottom: none;
+}
+  
+.arguments img:nth-child
+
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+  
+ 
+}
+
+/*----------------- PERSONNALISEZ ------------------------*/
+
+.personnalisez{
+  color: #5b5651;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.personnalisez img{
+  margin-top:10px;
+}
+.personnalisez h3{
+  color: #1d3d91;
+}
+
+/*----------------- AVIS ------------------------*/
+
+.avisTitle{
+  background-color:white;
+  text-align: center;
+  font-size: 20px;
+  color: #1d3d91;
+}
+
+.avis{
+  background-color:white;
+  margin-bottom: 30px;
+  padding: 30px;
+  height:160px;
+}
+
+.avis img{
+  width:20px;
+}
+
+
+/*----------------- COMMUNAUTÉ ------------------------*/
+
+
+.communaute{
+  color: #1d3d91; 
+  background: #b6e6f2;  
+}
+
+.communaute h3 {
+  text-align: center;
+}
+
+.communaute div p {
+  color: #5f5f5f;
+  text-align: justify;
+}
+
+.communaute div img {
+  width: 100px;
+  margin-bottom: 40px;
+}
+
+/*----------------- CONTACT ------------------------*/
+.contact{
+  float:left;
+}
+
+input {
+  background: none;
+  border: solid 2px #ce1818;
+  width:370px;
+  height:35px;
+  margin: 7px;
+}
+
+.commentaire{
+  height:200px;
+}
+
+.envoyer input[type=submit]{
+  height:45px;
+  width:115px;
+  background: white;
+  color: #000000;
+}
+
+.envoyer input[type=submit]:hover{
+  background-color: #ce1818;
+  color: #FFFFFF; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
