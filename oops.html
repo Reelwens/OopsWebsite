@@ -59,9 +59,7 @@
     
     <!-- section1 -->
     
-    <section id="section1">
-      <article class="row">
-       
+    <div class="row" id="section1">
         <div class="espace col-xs-1 visible-xs"></div>
         <div class="espace col-xs-10 visible-xs"><h1>My Oops: un objet connecté</h1></div>
         <div class="espace col-xs-1 visible-xs"></div>
@@ -76,16 +74,16 @@
           <p>Parce que perdre ou oublier ses affaires chez soi ou dans un lieu public représente un grand moment de stress et d'angoisse, nous avons créé OOPS, un objet connecté au smartphone qui permet de ne plus oublier ses affaires ou son portable. Oops est petit, pratique et fun! </p>
         </div>
         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
-      </article>
-    </section>
+    </div>
     
     <!-- section2 -->
     
     <section class="container" id="section2" >
      
       <!--Arguments de vente -->
+      <div class="row">
       <div class="blue"></div>
-      <article class="centre row container">
+      <article class="centre">
         <h2>Un compagnon de la vie de tous les jours</h2>
         <div class="bordure col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <h3>Retrouve les objets perdus</h3>
@@ -100,20 +98,21 @@
           <p>Souriez ! Un double-clique sur votre OOPS déclenche l'appareil photo de votre smartphone.</p>
         </div>
       </article>
+      </div>
       
       <!-- Petites images rondes -->
-      <article class="row container">
+      <article class="row">
        
         <div class="col-xs-1 visible-xs"></div>
         <div class="rond col-xs-5 col-sm-2 col-md-2 col-lg-2">
-          <p>Retrouvez son téléphone</p>
+          <p>Retrouvez votre téléphone</p>
           <img class="visible-md visible-lg" src="images/localisation.png" alt="Localisation"/>
         </div>
         
         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
         
         <div  class="rond col-xs-5 col-sm-2 col-md-2 col-lg-2">
-          <p>Retrouvez ses affaires</p>
+          <p>Retrouvez vos affaires</p>
           <img class="visible-md visible-lg" src="images/keys-icon.png" alt="Image de clés"/>
         </div>
         
@@ -127,7 +126,7 @@
         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
         
         <div class="rond col-xs-5 col-sm-2 col-md-2 col-lg-2">
-          <p>Selfoops à distance</p>
+          <p>Faites des selfoops à distance</p>
           <img class="visible-md visible-lg" src="images/bonhomme.png" alt="Bonhomme"/>
         </div>
         <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
@@ -135,8 +134,9 @@
       </article>
       
       <!-- Les avantages du Oops -->
+      <div class="row">
       <div class="blue"></div>
-      <article class="centre row container">
+      <article class="centre">
         <h2>Les avantages du OOPS</h2>
         <div class="bordure col-xs-12 col-sm-4 col-md-4 col-lg-4">
           <h3>Pratique</h3>
@@ -151,10 +151,12 @@
           <p>Ne prend pas de place dans votre poche.</p>
         </div>
       </article>
+      </div>
        
       <!-- Tarif entreprise -->
+      <div class="row">
       <div class="blue"></div>
-      <article class="container centre">
+      <article class="centre">
         <h2>Tarifs entreprises</h2>
         <table summary='Time Table'>
           <thead>
@@ -186,6 +188,7 @@
           </tbody>
         </table>
       </article>
+      </div>
       
       <!-- fiche technique -->
       <article class="row">
@@ -206,26 +209,73 @@
               <img src="images/Oops.png" alt="My Oops"/>
             </div>
           </div>
-        </div>  
-        <div class="row">
-          <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-            <h2>Personnalisez votre Oops:</h2>
-            <p>Communiquez l’image de votre entreprise sur un support de communication original et utile au quotidien:</p>
-          </div>
-          
-          <div class="perso col-xs-6 col-sm-2 col-md-2 col-lg-2"><a href="#">Demandez un devis</a></div>
-          
-          <div class="col-sm-2 col-md-2 col-lg-2"></div>
-          <div class="perso col-xs-6 col-sm-2 col-md-2 col-lg-2"><a href="#">Personnalisez votre OOPS</a></div>
-        </div>
-          
+        </div>    
       </article>
-      
     </section>
     
+    <div class="container">
+      <div class="row">
+         <div class="col-lg-12">
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <h2>Personnalisez votre Oops:</h2>
+            <p>Communiquez l’image de votre entreprise sur un support de communication original et utile au quotidien:</p>
+          <a href="oops.html">
+          </div>
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <button class="boutonPers" name="singlebutton" >Demandez un devis</button>
+                </a>
+                <a href="form">
+                    <button class="boutonPers" name="singlebutton" >Personnalisez votre Oops</button>
+                </a>
+          </div>
+          </div>
+      </div>
+      </div>
+
+    
+    <!-- form Contact-->
+    <div class="container-fluid">
+    <div class="row">
+        <div class="priseDeContact col-md-12 col-lg-12">
+            <div class="adresse col-lg-push-3 col-lg-6">
+                <h2>Nous contacter</h2>
+                <div class="trait2 col-lg-12"></div>
+            </div>
+
+            <form class="form-horizontal col-md-offset-2 col-md-10 col-lg-offset-3 col-lg-6" id="form">
+                    <fieldset>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <div class="col-md-10 col-lg-10">
+                                <input id="textinput" name="textinput" type="text" placeholder="Entreprise">
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <div class="col-md-10 col-lg-10">
+                                <input id="textinput" name="textinput" type="text" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-10 col-lg-10">
+                                <textarea rows="5" id="comment" placeholder="Commentaire"></textarea>
+                            </div>
+                        </div>
+                        <!-- Button -->
+                        <div class="form-group">
+                            <div class="col-md-4 col-lg-8">
+                                <button class="singlebutton" name="singlebutton">Envoyer</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+</div>
     <!-- footer de Gautier -->
-    <section class="row">
-        <footer>
+    <footer>
         <div class="container">
             <section class="row">
                 <div class="container">
@@ -269,7 +319,7 @@
             </section>
         </div>
     </footer>
-    </section>
+    
     <script src="scripts/jquery-2.2.0.min.js"></script>
     <script src="scripts/mainOops.js"></script>
     <script src="bootstrap/js/jquery.js"></script>
